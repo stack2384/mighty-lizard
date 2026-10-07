@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     qemu-system-x86 \
     novnc \
     websockify \
-    wget \
+    curl \
     ca-certificates \
     procps \
     && rm -rf /var/lib/apt/lists/*
